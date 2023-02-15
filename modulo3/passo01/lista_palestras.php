@@ -57,11 +57,13 @@
                     </a>
                   </td>
                   <td class=\"actions\">
-                    <img
-                      class=\"icon\"
-                      src=\"img/delete-svgrepo-com.svg\"
-                      alt=\"Edit action\"
-                    />
+                    <a href=\"delete_palestra.php?id={$palestra['id']}\">
+                      <img
+                        class=\"icon\"
+                        src=\"img/delete-svgrepo-com.svg\"
+                        alt=\"Edit action\"
+                      />
+                    </a>
                   </td>
                   <td>{$palestra['id']}</td>
                   <td>{$palestra['name']}</td>
