@@ -1,0 +1,101 @@
+:root {
+  --gray: #aeaeae;
+  --light-gray: #eaeaea;
+  --success: #4a934a;
+}
+
+main {
+  margin-left: 1rem;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 1rem 0;
+}
+
+table,
+td,
+th {
+  border: 2px solid var(--gray);
+}
+
+table {
+  margin-bottom: 0.5rem;
+}
+
+th {
+  padding: 0.5rem;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+td {
+  padding: 0.25rem 0.75rem;
+}
+
+td {
+  vertical-align: middle;
+}
+
+.item-action {
+  padding: 0.5rem;
+}
+
+.icon {
+  width: 20px;
+  display: block;
+  cursor: pointer;
+}
+
+.table-action > a {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  width: max-content;
+  border-radius: 0.5rem;
+}
+
+.table-action .add-item {
+  padding: 1rem;
+  background: var(--success);
+  color: var(--light-gray);
+  text-decoration: none;
+}
+
+.table-action .add-item:hover {
+  opacity: 0.9;
+}
+
+/* adicionar palestra */
+form {
+  background: var(--gray);
+  padding: 1rem;
+  width: max-content;
+}
+
+form > div {
+  display: flex;
+  width: 600px;
+  margin-bottom: 0.75rem;
+}
+
+form > div > label {
+  display: block;
+  width: 20%;
+  font-size: 1.25rem;
+}
+form > div > input {
+  display: block;
+  width: 80%;
+}
+
+form > button {
+  display: block;
+  padding: 0.5rem;
+  margin: 1rem auto 0;
+}
+
+form input:read-only {
+  background-color: var(--gray);
+}
