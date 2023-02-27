@@ -1,0 +1,26 @@
+    <form action="form_palestras.php?action=salvar" method="post">
+      <div>
+        <label for="id">Código: </label>
+        <input type="number" name="id" id="id" readonly value="{{id}}" />
+      </div>
+
+      <div>
+        <label for="name">Nome: </label>
+        <input type="text" name="name" id="name" value="{{name}}" />
+      </div>
+      <div>
+        <label for="palestrante">Palestrante: </label>
+        <input type="text" name="palestrante" id="palestrante" value="{{palestrante}}" />
+      </div>
+      <div>
+        <label for="inicio">Inicio: </label>
+        <input type="time" name="inicio" id="inicio" value="{{inicio}}" />
+      </div>
+      <div>
+        <label for="fim">Fim: </label>
+        <input type="time" name="fim" id="fim" value="{{fim}}"/>
+      </div>
+      <button type="submit">Salvar</button>
+    </form>
+  </body>
+</html>
